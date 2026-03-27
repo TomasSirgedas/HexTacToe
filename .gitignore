@@ -11,8 +11,7 @@
 *.sln.docstates
 *.env
 *.txt
-out.html
-steps.html
+HexTicTacToe/*.html
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

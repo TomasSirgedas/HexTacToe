@@ -18,6 +18,7 @@ public:
    SVGWriter( XY size ) : _Size( size )
    {
       ss << "<!DOCTYPE html><html><body style='background-color:#222222;'>" << endl << endl;
+      ss << "<a href='index.html'><h2>Home</h2></a>" << endl << endl;
       std::string commonText = R"(
 <svg style="display:none;">
 <style>
@@ -212,7 +213,7 @@ SVGBoardMaker::SVGBoardMaker( std::string filename )
    : m_filename( filename )
 {
    m_svgWriter = std::make_unique<SVGWriter>( XY( 500, 400 ) );
-   m_svgWriter->m = [&]( XYf p ) { return p * 20; };   
+   m_svgWriter->m = [&]( XYf p ) { return p * 20; };
    //drawCellBackground( XY( 0, 0 ), 0 );
    //drawCellBackground( XY( 1, 0 ), 0 );
    //drawCellBackground( XY( 0, 1 ), 0 );

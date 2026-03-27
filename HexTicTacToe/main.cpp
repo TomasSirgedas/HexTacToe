@@ -1018,15 +1018,17 @@ void drawSteps()
 //    . . . . . . . . .
 //     . . . . . . . .
 //      . . . . . . .     )";
+
+   string name = "rhomb1";
    string boardStr = R"(
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
-   . . . . . a b . . .
-  . . . . . i X c . . .
+   . . . . . . . . . .
+  . . . . . a b c . . .
  . . . . . d X X e . . .
 . . . . . O X X f . . . .
- . . . . . g h O . . . .
+ . . . . . g h i . . . .
   . . . . . . . . . . .
    . . . . . . . . . .
     . . . . . . . . .
@@ -1051,11 +1053,11 @@ void drawSteps()
    vector<XY> cellsToDraw;
    forEachHex( 7, [&]( XY p ) { cellsToDraw.push_back( p ); } );
 
-   SVGBoardMaker svg( "steps.html" );
+   SVGBoardMaker svg( name + ".html" );
 
    // draw template first
    {
-      svg.startNewSVG( "template" );
+      svg.startNewSVG( name );
       Board board = Board::from( boardStr );
       for ( XY p : cellsToDraw )
          svg.drawHex( p, board.at( p ) );

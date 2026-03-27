@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="800" viewBox="0 0 1200 800">
+<polygon points = "600,420 582.679,410 582.679,390 600,380 617.321,390 617.321,410 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,420 617.321,410 617.321,390 634.641,380 651.962,390 651.962,410 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,450 565.359,440 565.359,420 582.679,410 600,420 600,440 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,420 651.962,410 651.962,390 669.282,380 686.603,390 686.603,410 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,420 686.603,410 686.603,390 703.923,380 721.244,390 721.244,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="634.641016" y="402.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">X</text>
+<text x="669.282032" y="402.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">O</text>
+<polygon points = "478.756,210 461.436,200 461.436,180 478.756,170 496.077,180 496.077,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,210 496.077,200 496.077,180 513.397,170 530.718,180 530.718,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,210 530.718,200 530.718,180 548.038,170 565.359,180 565.359,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,210 565.359,200 565.359,180 582.679,170 600,180 600,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,210 600,200 600,180 617.321,170 634.641,180 634.641,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,210 634.641,200 634.641,180 651.962,170 669.282,180 669.282,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "686.603,210 669.282,200 669.282,180 686.603,170 703.923,180 703.923,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,210 703.923,200 703.923,180 721.244,170 738.564,180 738.564,200 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,240 444.115,230 444.115,210 461.436,200 478.756,210 478.756,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,240 478.756,230 478.756,210 496.077,200 513.397,210 513.397,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,240 513.397,230 513.397,210 530.718,200 548.038,210 548.038,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,240 548.038,230 548.038,210 565.359,200 582.679,210 582.679,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "600,240 582.679,230 582.679,210 600,200 617.321,210 617.321,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,240 617.321,230 617.321,210 634.641,200 651.962,210 651.962,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,240 651.962,230 651.962,210 669.282,200 686.603,210 686.603,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,240 686.603,230 686.603,210 703.923,200 721.244,210 721.244,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "738.564,240 721.244,230 721.244,210 738.564,200 755.885,210 755.885,230 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,270 426.795,260 426.795,240 444.115,230 461.436,240 461.436,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,270 461.436,260 461.436,240 478.756,230 496.077,240 496.077,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,270 496.077,260 496.077,240 513.397,230 530.718,240 530.718,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,270 530.718,260 530.718,240 548.038,230 565.359,240 565.359,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,270 565.359,260 565.359,240 582.679,230 600,240 600,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,270 600,260 600,240 617.321,230 634.641,240 634.641,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,270 634.641,260 634.641,240 651.962,230 669.282,240 669.282,260 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="651.961524" y="252.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">3</text>
+<polygon points = "686.603,270 669.282,260 669.282,240 686.603,230 703.923,240 703.923,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,270 703.923,260 703.923,240 721.244,230 738.564,240 738.564,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,270 738.564,260 738.564,240 755.885,230 773.205,240 773.205,260 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "426.795,300 409.474,290 409.474,270 426.795,260 444.115,270 444.115,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,300 444.115,290 444.115,270 461.436,260 478.756,270 478.756,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,300 478.756,290 478.756,270 496.077,260 513.397,270 513.397,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,300 513.397,290 513.397,270 530.718,260 548.038,270 548.038,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,300 548.038,290 548.038,270 565.359,260 582.679,270 582.679,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "600,300 582.679,290 582.679,270 600,260 617.321,270 617.321,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,300 617.321,290 617.321,270 634.641,260 651.962,270 651.962,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,300 651.962,290 651.962,270 669.282,260 686.603,270 686.603,290 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="669.282032" y="282.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">3</text>
+<polygon points = "703.923,300 686.603,290 686.603,270 703.923,260 721.244,270 721.244,290 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="703.923048" y="282.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "738.564,300 721.244,290 721.244,270 738.564,260 755.885,270 755.885,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "773.205,300 755.885,290 755.885,270 773.205,260 790.526,270 790.526,290 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "409.474,330 392.154,320 392.154,300 409.474,290 426.795,300 426.795,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,330 426.795,320 426.795,300 444.115,290 461.436,300 461.436,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,330 461.436,320 461.436,300 478.756,290 496.077,300 496.077,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,330 496.077,320 496.077,300 513.397,290 530.718,300 530.718,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,330 530.718,320 530.718,300 548.038,290 565.359,300 565.359,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,330 565.359,320 565.359,300 582.679,290 600,300 600,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,330 600,320 600,300 617.321,290 634.641,300 634.641,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,330 634.641,320 634.641,300 651.962,290 669.282,300 669.282,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "686.603,330 669.282,320 669.282,300 686.603,290 703.923,300 703.923,320 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="686.602540" y="312.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "721.244,330 703.923,320 703.923,300 721.244,290 738.564,300 738.564,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,330 738.564,320 738.564,300 755.885,290 773.205,300 773.205,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "790.526,330 773.205,320 773.205,300 790.526,290 807.846,300 807.846,320 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "392.154,360 374.833,350 374.833,330 392.154,320 409.474,330 409.474,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "426.795,360 409.474,350 409.474,330 426.795,320 444.115,330 444.115,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,360 444.115,350 444.115,330 461.436,320 478.756,330 478.756,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,360 478.756,350 478.756,330 496.077,320 513.397,330 513.397,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,360 513.397,350 513.397,330 530.718,320 548.038,330 548.038,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,360 548.038,350 548.038,330 565.359,320 582.679,330 582.679,350 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="565.358984" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">2</text>
+<polygon points = "600,360 582.679,350 582.679,330 600,320 617.321,330 617.321,350 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="600.000000" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">1</text>
+<polygon points = "634.641,360 617.321,350 617.321,330 634.641,320 651.962,330 651.962,350 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="634.641016" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "669.282,360 651.962,350 651.962,330 669.282,320 686.603,330 686.603,350 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="669.282032" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "703.923,360 686.603,350 686.603,330 703.923,320 721.244,330 721.244,350 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="703.923048" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">1</text>
+<polygon points = "738.564,360 721.244,350 721.244,330 738.564,320 755.885,330 755.885,350 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="738.564065" y="342.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">2</text>
+<polygon points = "773.205,360 755.885,350 755.885,330 773.205,320 790.526,330 790.526,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "807.846,360 790.526,350 790.526,330 807.846,320 825.167,330 825.167,350 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "374.833,390 357.513,380 357.513,360 374.833,350 392.154,360 392.154,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "409.474,390 392.154,380 392.154,360 409.474,350 426.795,360 426.795,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,390 426.795,380 426.795,360 444.115,350 461.436,360 461.436,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,390 461.436,380 461.436,360 478.756,350 496.077,360 496.077,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,390 496.077,380 496.077,360 513.397,350 530.718,360 530.718,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,390 530.718,380 530.718,360 548.038,350 565.359,360 565.359,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,390 565.359,380 565.359,360 582.679,350 600,360 600,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,390 600,380 600,360 617.321,350 634.641,360 634.641,380 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="617.320508" y="372.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "651.962,390 634.641,380 634.641,360 651.962,350 669.282,360 669.282,380 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="651.961524" y="372.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "686.603,390 669.282,380 669.282,360 686.603,350 703.923,360 703.923,380 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="686.602540" y="372.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "721.244,390 703.923,380 703.923,360 721.244,350 738.564,360 738.564,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,390 738.564,380 738.564,360 755.885,350 773.205,360 773.205,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "790.526,390 773.205,380 773.205,360 790.526,350 807.846,360 807.846,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "825.167,390 807.846,380 807.846,360 825.167,350 842.487,360 842.487,380 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "357.513,420 340.192,410 340.192,390 357.513,380 374.833,390 374.833,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "392.154,420 374.833,410 374.833,390 392.154,380 409.474,390 409.474,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "426.795,420 409.474,410 409.474,390 426.795,380 444.115,390 444.115,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,420 444.115,410 444.115,390 461.436,380 478.756,390 478.756,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,420 478.756,410 478.756,390 496.077,380 513.397,390 513.397,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,420 513.397,410 513.397,390 530.718,380 548.038,390 548.038,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,420 548.038,410 548.038,390 565.359,380 582.679,390 582.679,410 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="565.358984" y="402.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "600,420 582.679,410 582.679,390 600,380 617.321,390 617.321,410 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="600.000000" y="402.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "634.641,420 617.321,410 617.321,390 634.641,380 651.962,390 651.962,410 " fill = "#5E2F1D" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="634.641016" y="402.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#E96302">X</text>
+<polygon points = "669.282,420 651.962,410 651.962,390 669.282,380 686.603,390 686.603,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,420 686.603,410 686.603,390 703.923,380 721.244,390 721.244,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "738.564,420 721.244,410 721.244,390 738.564,380 755.885,390 755.885,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "773.205,420 755.885,410 755.885,390 773.205,380 790.526,390 790.526,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "807.846,420 790.526,410 790.526,390 807.846,380 825.167,390 825.167,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "842.487,420 825.167,410 825.167,390 842.487,380 859.808,390 859.808,410 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "374.833,450 357.513,440 357.513,420 374.833,410 392.154,420 392.154,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "409.474,450 392.154,440 392.154,420 409.474,410 426.795,420 426.795,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,450 426.795,440 426.795,420 444.115,410 461.436,420 461.436,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,450 461.436,440 461.436,420 478.756,410 496.077,420 496.077,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,450 496.077,440 496.077,420 513.397,410 530.718,420 530.718,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,450 530.718,440 530.718,420 548.038,410 565.359,420 565.359,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,450 565.359,440 565.359,420 582.679,410 600,420 600,440 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="582.679492" y="432.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "617.321,450 600,440 600,420 617.321,410 634.641,420 634.641,440 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="617.320508" y="432.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "651.962,450 634.641,440 634.641,420 651.962,410 669.282,420 669.282,440 " fill = "#163B65" stroke = "#25233D" stroke-width = "2.000000"/>
+<text x="651.961524" y="432.000000" dominant-baseline="middle" text-anchor="middle" font-weight="bold" font-size="30" font-family="Arial" fill="#0288E9">O</text>
+<polygon points = "686.603,450 669.282,440 669.282,420 686.603,410 703.923,420 703.923,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,450 703.923,440 703.923,420 721.244,410 738.564,420 738.564,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,450 738.564,440 738.564,420 755.885,410 773.205,420 773.205,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "790.526,450 773.205,440 773.205,420 790.526,410 807.846,420 807.846,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "825.167,450 807.846,440 807.846,420 825.167,410 842.487,420 842.487,440 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "392.154,480 374.833,470 374.833,450 392.154,440 409.474,450 409.474,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "426.795,480 409.474,470 409.474,450 426.795,440 444.115,450 444.115,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,480 444.115,470 444.115,450 461.436,440 478.756,450 478.756,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,480 478.756,470 478.756,450 496.077,440 513.397,450 513.397,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,480 513.397,470 513.397,450 530.718,440 548.038,450 548.038,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,480 548.038,470 548.038,450 565.359,440 582.679,450 582.679,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "600,480 582.679,470 582.679,450 600,440 617.321,450 617.321,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,480 617.321,470 617.321,450 634.641,440 651.962,450 651.962,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,480 651.962,470 651.962,450 669.282,440 686.603,450 686.603,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,480 686.603,470 686.603,450 703.923,440 721.244,450 721.244,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "738.564,480 721.244,470 721.244,450 738.564,440 755.885,450 755.885,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "773.205,480 755.885,470 755.885,450 773.205,440 790.526,450 790.526,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "807.846,480 790.526,470 790.526,450 807.846,440 825.167,450 825.167,470 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "409.474,510 392.154,500 392.154,480 409.474,470 426.795,480 426.795,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,510 426.795,500 426.795,480 444.115,470 461.436,480 461.436,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,510 461.436,500 461.436,480 478.756,470 496.077,480 496.077,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,510 496.077,500 496.077,480 513.397,470 530.718,480 530.718,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,510 530.718,500 530.718,480 548.038,470 565.359,480 565.359,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,510 565.359,500 565.359,480 582.679,470 600,480 600,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,510 600,500 600,480 617.321,470 634.641,480 634.641,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,510 634.641,500 634.641,480 651.962,470 669.282,480 669.282,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "686.603,510 669.282,500 669.282,480 686.603,470 703.923,480 703.923,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,510 703.923,500 703.923,480 721.244,470 738.564,480 738.564,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,510 738.564,500 738.564,480 755.885,470 773.205,480 773.205,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "790.526,510 773.205,500 773.205,480 790.526,470 807.846,480 807.846,500 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "426.795,540 409.474,530 409.474,510 426.795,500 444.115,510 444.115,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,540 444.115,530 444.115,510 461.436,500 478.756,510 478.756,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,540 478.756,530 478.756,510 496.077,500 513.397,510 513.397,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,540 513.397,530 513.397,510 530.718,500 548.038,510 548.038,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,540 548.038,530 548.038,510 565.359,500 582.679,510 582.679,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "600,540 582.679,530 582.679,510 600,500 617.321,510 617.321,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,540 617.321,530 617.321,510 634.641,500 651.962,510 651.962,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,540 651.962,530 651.962,510 669.282,500 686.603,510 686.603,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,540 686.603,530 686.603,510 703.923,500 721.244,510 721.244,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "738.564,540 721.244,530 721.244,510 738.564,500 755.885,510 755.885,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "773.205,540 755.885,530 755.885,510 773.205,500 790.526,510 790.526,530 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "444.115,570 426.795,560 426.795,540 444.115,530 461.436,540 461.436,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,570 461.436,560 461.436,540 478.756,530 496.077,540 496.077,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,570 496.077,560 496.077,540 513.397,530 530.718,540 530.718,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,570 530.718,560 530.718,540 548.038,530 565.359,540 565.359,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,570 565.359,560 565.359,540 582.679,530 600,540 600,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,570 600,560 600,540 617.321,530 634.641,540 634.641,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,570 634.641,560 634.641,540 651.962,530 669.282,540 669.282,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "686.603,570 669.282,560 669.282,540 686.603,530 703.923,540 703.923,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,570 703.923,560 703.923,540 721.244,530 738.564,540 738.564,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "755.885,570 738.564,560 738.564,540 755.885,530 773.205,540 773.205,560 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "461.436,600 444.115,590 444.115,570 461.436,560 478.756,570 478.756,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "496.077,600 478.756,590 478.756,570 496.077,560 513.397,570 513.397,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "530.718,600 513.397,590 513.397,570 530.718,560 548.038,570 548.038,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "565.359,600 548.038,590 548.038,570 565.359,560 582.679,570 582.679,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "600,600 582.679,590 582.679,570 600,560 617.321,570 617.321,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "634.641,600 617.321,590 617.321,570 634.641,560 651.962,570 651.962,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "669.282,600 651.962,590 651.962,570 669.282,560 686.603,570 686.603,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "703.923,600 686.603,590 686.603,570 703.923,560 721.244,570 721.244,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "738.564,600 721.244,590 721.244,570 738.564,560 755.885,570 755.885,590 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "478.756,630 461.436,620 461.436,600 478.756,590 496.077,600 496.077,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "513.397,630 496.077,620 496.077,600 513.397,590 530.718,600 530.718,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "548.038,630 530.718,620 530.718,600 548.038,590 565.359,600 565.359,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "582.679,630 565.359,620 565.359,600 582.679,590 600,600 600,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "617.321,630 600,620 600,600 617.321,590 634.641,600 634.641,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "651.962,630 634.641,620 634.641,600 651.962,590 669.282,600 669.282,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "686.603,630 669.282,620 669.282,600 686.603,590 703.923,600 703.923,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+<polygon points = "721.244,630 703.923,620 703.923,600 721.244,590 738.564,600 738.564,620 " fill = "#1F1729" stroke = "#25233D" stroke-width = "2.000000"/>
+</svg>

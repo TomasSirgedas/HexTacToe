@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HexTicTacToe/HexTicTacToe.vcxproj" Id="ad3ece9e-cf14-449f-881e-80465b7dfdf0" />
+</Solution>

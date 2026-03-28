@@ -24,7 +24,7 @@
     <ProjectGuid>{ad3ece9e-cf14-449f-881e-80465b7dfdf0}</ProjectGuid>
     <RootNamespace>HexTicTacToe</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>HexTicTacToe2</ProjectName>
+    <ProjectName>HexTicTacToe5</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

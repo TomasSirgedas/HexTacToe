@@ -1051,16 +1051,16 @@ void drawSteps()
 //     . . . . . . . .
 //      . . . . . . .     )";
 
-   string name = "triangle_standard";
+   string name = "open3_6";
    string boardStr = R"(
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
-   . . . . . a b . . .
-  . . . . . i X c . . .
- . . . . . d X X e . . .
-. . . . . O X X f . . . .
- . . . . . g h O . . . .
+   . . . . . . . . . .
+  . . . . . . . . . . .
+ . . . . . O O X . . . .
+. . . . . X X X X . . . .
+ . . . . . . . . . . . .
   . . . . . . . . . . .
    . . . . . . . . . .
     . . . . . . . . .
@@ -1091,7 +1091,7 @@ void drawSteps()
 
    auto forEachOMove2 = [&]( const function<void( string, Board& )>& func )
    {
-      Board board = Board::from( boardStr );
+      Board board = Board::from( boardStr );      
       for ( int i0 = 0; i0 < (int)letterOptions.size(); i0++ )
          for ( int i1 = i0 + 1; i1 < (int)letterOptions.size(); i1++ )
          {
@@ -1139,6 +1139,9 @@ void drawSteps()
    vector<string> defenseOptions;
 
    forEachOMove2( [&]( string letters, Board& board ) {
+      if ( board.numThreatsX() > 0 )
+         return;
+
       svg.startNewSVG( letters );
 
       bool xWins = drawStepstoSVG( svg, board, cellsToDraw );

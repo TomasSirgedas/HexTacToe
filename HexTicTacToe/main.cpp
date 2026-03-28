@@ -29,6 +29,7 @@ namespace
 
    int64_t rnd( int64_t k ) { return uniform_int_distribution<int64_t>( 0, k - 1 )(g_rng); }
    uint64_t rnd_uint64() { return uniform_int_distribution<uint64_t>( 0, numeric_limits<uint64_t>::max() )(g_rng); }
+   vector<XY> g_DIRS = { XY( -1, -1 ), XY( -1, 0 ), XY( 0, 1 ), XY( 1, 1 ), XY( 1, 0 ), XY( 0, -1 ) };
    int hexLen( XY p ) 
    {
       return max( max( abs( p.x ), abs( p.y ) ), abs( p.x - p.y ) );
@@ -887,12 +888,12 @@ void basicAnalyze()
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
-   . . . . . X . . . .
-  . . . O . O O . . . .
- . . . . . . X O . . . .
-. . . . . X X X O . . . .
- . . . . . X . . O . . .
-  . . . . . . . . X . .
+   . . . . . . . . . .
+  . . . . O X . . . . .
+ . . . . . X X O . . . .
+. . . . . O X . . . . . .
+ . . . . . . . . . . . .
+  . . . . . . . . . . .
    . . . . . . . . . .
     . . . . . . . . .
      . . . . . . . .
@@ -918,17 +919,46 @@ void basicAnalyze()
    //analyze_Os_turn( Board::from( boardStr ), true );
 }
 
-void drawStepstoSVG( SVGBoardMaker& svg, Board& board, vector<XY> cellsToDraw )
+// return `true` iff X wins
+bool drawStepstoSVG( SVGBoardMaker& svg, Board& board, vector<XY> cellsToDraw )
 {
    Board futureBoard;
    bool xWins = analyze_Xs_turn( board, true, &futureBoard );
+
+   ////optionally check if non-double-threat moves leads to winning position
+   //if ( !xWins ) 
+   //{      
+   //   board.forEachXPlacement( 2 /*#Os*/, 3/*radius*/, [&]() {
+   //      if ( xWins )
+   //         return;
+
+   //      trace << board.str() << endl;
+   //      xWins = analyze_Os_turn( board, false /*no printing*/ );
+   //      //isWinForX = analyze_Os_turn( board );
+   //      trace << "..." << (xWins ? "X wins" : "O defends") << endl << endl;
+   //   } );
+
+   //   if ( !xWins )
+   //   {
+   //      trace << board.str() << endl;
+   //      trace << "...O defended ALL X moves" << endl;
+   //   }
+   //}
+
 
    trace << "-- STEPS --" << endl;
 
    vector<Board> steps;
 
    if ( !xWins )
-      return;
+   {
+      for ( XY p : cellsToDraw )
+      {
+         svg.drawHex( p, board.at( p ) );
+      }
+      svg.drawNoForcedWinFound();
+      return false;
+   }
 
    steps.push_back( board );
    steps.push_back( futureBoard );
@@ -958,7 +988,7 @@ void drawStepstoSVG( SVGBoardMaker& svg, Board& board, vector<XY> cellsToDraw )
          if ( steps[i - 1].at( p ) == -1 && steps[i].at( p ) != -1 )
             cellStatuses[p].num = i;
          //cellStatuses[p].val = steps[i].at( p );
-      };
+      }
    }
 
    for ( XY p : cellsToDraw )
@@ -969,7 +999,9 @@ void drawStepstoSVG( SVGBoardMaker& svg, Board& board, vector<XY> cellsToDraw )
       //   //string text = cellStatuses[p].num > 0 ? to_string( cellStatuses[p].num ) : cellStatuses[p].val == 0 ? "O" : "X";
       //   svg.drawHex( p, cellStatuses[p].val, cellStatuses[p].num );
       //}
-   };
+   }
+
+   return true;
 }
 
 
@@ -1019,16 +1051,16 @@ void drawSteps()
 //     . . . . . . . .
 //      . . . . . . .     )";
 
-   string name = "rhomb1";
+   string name = "2v2";
    string boardStr = R"(
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
    . . . . . . . . . .
-  . . . . . a b c . . .
- . . . . . d X X e . . .
-. . . . . O X X f . . . .
- . . . . . g h i . . . .
+  . . . . . . . . . . .
+ . . . . . . . . . . . .
+. . . . . . X X . . . . .
+ . . . . . O O . . . . .
   . . . . . . . . . . .
    . . . . . . . . . .
     . . . . . . . . .
@@ -1036,7 +1068,28 @@ void drawSteps()
       . . . . . . .     )";
 
    vector<XY> letterOptions = Board::parseLetterOptions( boardStr );
-   auto forEachOMove = [&]( const function<void( string, Board& )>& func )
+   if ( letterOptions.empty() )
+   {
+      Board board = Board::from( boardStr );
+      char nextLetter = 'a';
+      forEachHex( 7, [&]( XY p ) 
+      { 
+         if ( board.at( p ) != -1 )
+            return;
+         bool nextToX = false;
+         for ( XY d : g_DIRS )
+            if ( board.at( p + d ) == 1 )
+               nextToX = true;
+         if ( nextToX )
+         {
+            letterOptions.push_back( p );
+            nextLetter++;
+         }
+      } );
+
+   }
+
+   auto forEachOMove2 = [&]( const function<void( string, Board& )>& func )
    {
       Board board = Board::from( boardStr );
       for ( int i0 = 0; i0 < (int)letterOptions.size(); i0++ )
@@ -1044,10 +1097,26 @@ void drawSteps()
          {
             board.setO( letterOptions[i0] );
             board.setO( letterOptions[i1] );
-            func( string() + char( 'a' + i0 + 0) + char( 'a' + i1 + 0), board);
+            func( string() + char( 'a' + i0 + 0 ) + char( 'a' + i1 + 0 ), board );
             board.unset( letterOptions[i1] );
             board.unset( letterOptions[i0] );
          }
+   };
+   auto forEachOMove3 = [&]( const function<void( string, Board& )>& func )
+   {
+      Board board = Board::from( boardStr );
+      for ( int i0 = 0; i0 < (int)letterOptions.size(); i0++ )
+         for ( int i1 = i0 + 1; i1 < (int)letterOptions.size(); i1++ )
+            for ( int i2 = i1 + 1; i2 < (int)letterOptions.size(); i2++ )
+            {
+               board.setO( letterOptions[i0] );
+               board.setO( letterOptions[i1] );
+               board.setO( letterOptions[i2] );
+               func( string() + char( 'a' + i0 + 0 ) + char( 'a' + i1 + 0 ) + char( 'a' + i2 + 0 ), board );
+               board.unset( letterOptions[i2] );
+               board.unset( letterOptions[i1] );
+               board.unset( letterOptions[i0] );
+            }
    };
 
    vector<XY> cellsToDraw;
@@ -1057,7 +1126,7 @@ void drawSteps()
 
    // draw template first
    {
-      svg.startNewSVG( name );
+      svg.startNewSVG( name, "@@SUMMARY@@" );
       Board board = Board::from( boardStr );
       for ( XY p : cellsToDraw )
          svg.drawHex( p, board.at( p ) );
@@ -1067,24 +1136,28 @@ void drawSteps()
          svg.drawText( p, string() + ch++, -1 );
    }
 
-   forEachOMove( [&]( string letters, Board& board ) {
+   vector<string> defenseOptions;
+
+   forEachOMove2( [&]( string letters, Board& board ) {
       svg.startNewSVG( letters );
 
-      drawStepstoSVG( svg, board, cellsToDraw );
+      bool xWins = drawStepstoSVG( svg, board, cellsToDraw );
+      if ( !xWins )
+         defenseOptions.push_back( letters );
 
       //for ( XY p : cellsToDraw )
       //{
       //   svg.drawHex( p, board.at( p ) );
       //};
-      svg.drawHex( letterOptions[letters[0] - 'a'], 0, -1 );
-      svg.drawText( letterOptions[letters[0] - 'a'], string() + letters[0], 0 );
-      svg.drawText( letterOptions[letters[1] - 'a'], string() + letters[1], 0 );
+
+      for ( char letter : letters )
+      {
+         svg.drawHex( letterOptions[letter - 'a'], 0, -1 );
+         svg.drawText( letterOptions[letter - 'a'], string() + letter, 0 );
+      }
    } );   
 
-   return;
-
-   //for ( const Board& step : steps )
-   //   trace << step.str() << endl;
+   svg.setDefenseOptions( defenseOptions );
 }
 
 void drawSVG()
@@ -1129,10 +1202,9 @@ void drawSVG()
 //
 //   for ( int r = 1; r < 8; r++ )
 //   {
-//      vector<XY> dirs = { XY( -1, -1 ), XY( -1, 0 ), XY( 0, 1 ), XY( 1, 1 ), XY( 1, 0 ), XY( 0, -1 ) };
 //      XY pos = XY( r, 0 );
 //      int idx = 0;
-//      for ( XY d : dirs )
+//      for ( XY d : g_DIRS )
 //      {
 //         for ( int i = 0; i < r; i++ )
 //         {

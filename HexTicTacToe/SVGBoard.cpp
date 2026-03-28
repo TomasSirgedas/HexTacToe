@@ -22,7 +22,8 @@ public:
       std::string commonText = R"(
 <svg style="display:none;">
 <style>
-   h1 { color: #66aacc; }
+   h1 { color: #66aacc; background-color:#ffffff22; font-family: Consolas; }
+   h2 { color: #4488aa; font-family: Consolas; }
    .hexOutline { stroke: #25233D; stroke-width: 2; }
    .xBackground { fill: #5E2F1D; }
    .xForeground { fill: #E96302; }
@@ -68,11 +69,13 @@ public:
       ss << "</svg>\n\n" << endl;
       _SVGSectionOpen = false;
    }
-   void startNewSVG( XY size, string title )
+   void startNewSVG( XY size, string title, string txt )
    {
       closeSVGIfNecessary();
 
-      ss << endl << "<h1>" << title << "</h1>" << endl << endl;
+      ss << endl << "<h1 id='" << title << "'>" << title << "</h1>" << endl << endl;
+      if ( !txt.empty() )
+         ss << endl << "<h2>" << txt << "</h2>" << endl << endl;
 
       string text = R"(
 <svg width='@@WIDTH@@' height='@@HEIGHT@@' viewBox='@@LEFT@@ @@TOP@@ @@WIDTH@@ @@HEIGHT@@' xmlns='http://www.w3.org/2000/svg'>
@@ -190,11 +193,29 @@ public:
       ss << text << endl;
    }
 
+   void setDefenseOptions( std::vector<std::string> defenseOptions )
+   {
+      m_defenseOptions = defenseOptions;
+   }
+
+   std::string summaryText()
+   {
+      stringstream ss;
+      ss << "Summary: O can defend with <span style='color: #cccccc;'>";
+      for ( auto s : m_defenseOptions )
+         ss << " " << s;
+      ss << (m_defenseOptions.empty() ? " nothing</span>! (X wins)" : "</span>");
+      ss << ".";
+      return ss.str();
+   }
+
    std::string str()
    {
       closeSVGIfNecessary();
 
       std::string text = ss.str();
+      text = std::regex_replace( text, std::regex( "@@SUMMARY@@" ), summaryText() );
+
       return text + "</body></html>\n";
    }
 
@@ -205,6 +226,7 @@ public:
    std::stringstream ss;
    XY _Size;
    bool _SVGSectionOpen = false;
+   std::vector<std::string> m_defenseOptions;
 };
 
 
@@ -229,9 +251,9 @@ SVGBoardMaker::~SVGBoardMaker()
    f << m_svgWriter->str() << std::endl;
 }
 
-void SVGBoardMaker::startNewSVG( string title )
+void SVGBoardMaker::startNewSVG( string title, string text )
 {
-   m_svgWriter->startNewSVG( m_svgWriter->_Size, title );
+   m_svgWriter->startNewSVG( m_svgWriter->_Size, title, text );
 }
 
 XYf SVGBoardMaker::cellCenter( XY pos ) const
@@ -257,3 +279,12 @@ void SVGBoardMaker::drawText( XY pos, string text, int val )
    m_svgWriter->drawHexText( cellCenter( pos ), text, val );
 }
 
+void SVGBoardMaker::drawNoForcedWinFound()
+{
+   m_svgWriter->drawText( XYf( 0, -7 ), "X runs out of double-threats", "bold", "#FFFFFF80" );
+}
+
+void SVGBoardMaker::setDefenseOptions( std::vector<std::string> defenseOptions )
+{
+   m_svgWriter->setDefenseOptions( defenseOptions );
+}

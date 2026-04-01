@@ -44,5 +44,8 @@
     <ClInclude Include="SVGBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\unordered_dense\include\ankerl\unordered_dense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

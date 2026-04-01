@@ -13,6 +13,7 @@
 #include "trace.h"
 #include "Timer.h"
 #include "SVGBoard.h"
+#include <ankerl/unordered_dense.h>
 
 using namespace std;
 
@@ -666,11 +667,11 @@ public:
 public:
    Board& m_board;
    vector<XY> m_candidateCells;
-   static unordered_map<uint64_t, bool> s_canODefendCache[100];
-   static unordered_map<uint64_t, bool> s_canXWinCache[100];
+   static ankerl::unordered_dense::map<uint64_t, bool> s_canODefendCache[100];
+   static ankerl::unordered_dense::map<uint64_t, bool> s_canXWinCache[100];
 };
-unordered_map<uint64_t, bool> ForcedWinSearch::s_canODefendCache[100];
-unordered_map<uint64_t, bool> ForcedWinSearch::s_canXWinCache[100];
+ankerl::unordered_dense::map<uint64_t, bool> ForcedWinSearch::s_canODefendCache[100];
+ankerl::unordered_dense::map<uint64_t, bool> ForcedWinSearch::s_canXWinCache[100];
 
 void mainAnalyzeBonePlus4()
 {

@@ -888,16 +888,16 @@ void basicAnalyze()
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
-   . . . . . . . . . .
-  . . . . O X . . . . .
- . . . . . X X O . . . .
-. . . . . O X . . . . . .
- . . . . . . . . . . . .
-  . . . . . . . . . . .
-   . . . . . . . . . .
+   . . . . . . . O . .
+  . . . . . . . X . . .
+ . . . . . O . X . . . .
+. . . . O X X X X O . . .
+ . . . . . O X X . . . .
+  . . . . . O . . . . .
+   . . . . . . . . O .
     . . . . . . . . .
      . . . . . . . .
-      . . . . . . .     )";
+      . . . . . . .      )";
 //   string boardStr = R"(
 //      . . . . . . .
 //     . . . . . . . .
@@ -1051,21 +1051,21 @@ void drawSteps()
 //     . . . . . . . .
 //      . . . . . . .     )";
 
-   string name = "triangle_pair_5";
+   string name = "print6";
    string boardStr = R"(
       . . . . . . .
      . . . . . . . .
     . . . . . . . . .
    . . . . . . . . . .
-  . . . . . O . . . . .
- . . . . . a X b . . . .
-. . . . . O X X c . . . .
- . . . . . O d X . . . .
-  . . . . e X X X f . .
-   . . . . g h i O . .
+  . . . . . . . . . . .
+ . . . . . O . X . . . .
+. . . . O X X X X O . . .
+ . . . . . O . X . . . .
+  . . . . . . . . . . .
+   . . . . . . . . . .
     . . . . . . . . .
      . . . . . . . .
-      . . . . . . .     )";
+      . . . . . . .      )";
 
    vector<XY> letterOptions = Board::parseLetterOptions( boardStr );
    if ( letterOptions.empty() )
@@ -1279,16 +1279,16 @@ void main()
 
 
 //
-//   setTraceFile( "triangle2.txt" );
+//   setTraceFile( "boomerang.txt" );
 //   string boardStr = R"(
 //      . . . . . . .
 //     . . . . . . . .
 //    . . . . . . . . .
 //   . . . . . . . . . .
 //  . . . . . . . . . . .
-// . . . . . . . . . . . .
+// . . . . . X . . . . . .
 //. . . . . . X . . . . . .
-// . . . . . X X . . . . .
+// . . . . . X . . . . . .
 //  . . . . . . . . . . .
 //   . . . . . . . . . .
 //    . . . . . . . . .
@@ -1301,7 +1301,7 @@ void main()
 //      if ( isWinForX )
 //         return;
 //      
-//      board.forEachXPlacement( 2 /*#Os*/, 2 /*radius*/, [&]() {
+//      board.forEachXPlacement( 2 /*#Os*/, 3 /*radius*/, [&]() {
 //         if ( isWinForX )
 //            return;
 //
@@ -1320,16 +1320,17 @@ void main()
 //   } );
 
 
-//
+
+//   setTraceFile( "boomerang2.txt" );
 //   string boardStr = R"(
 //      . . . . . . .
 //     . . . . . . . .
 //    . . . . . . . . .
 //   . . . . . . . . . .
 //  . . . . . . . . . . .
-// . . . . . . O . . . . .
-//. . . . O X X X . . . . .
-// . . . . . . . . . . . .
+// . . . . . X O . . . . .
+//. . . . . . X . . . . . .
+// . . . . . X O . . . . .
 //  . . . . . . . . . . .
 //   . . . . . . . . . .
 //    . . . . . . . . .
@@ -1343,7 +1344,7 @@ void main()
 //   //      return;
 //   bool isWinForX = false;
 //      
-//      board.forEachXPlacement( 2 /*#Os*/, 2 /*radius*/, [&]() {
+//      board.forEachXPlacement( 2 /*#Os*/, 3 /*radius*/, [&]() {
 //         if ( isWinForX )
 //            return;
 //
